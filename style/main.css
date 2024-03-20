@@ -1,0 +1,65 @@
+/* CSS code */
+body {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the entire page to Roboto */
+    font-size: 21px; /* Set font size for the body */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+header {
+    background-color: #D7D7D7; /* Set background color for header */
+    padding: 100px 0; /* Add space on top and bottom */
+}
+
+section.about-me {
+   /* Set background color for about-me section */
+   background-color: #FFEAEA; 
+    /* Add space on top and bottom */
+    padding: 100px 0;
+}
+
+section.articles {
+    background-color: #EAF9FF; /* Set background color for articles section */
+    padding: 100px 0; /*Add space on top and bottom */
+}
+
+.container {
+    width: 570px; /*  width for the container */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Reset text alignment within the container */
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 60px; /* font size for h2 */
+}
+h1
+{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h1 span{
+    font-size: 80px;
+    font-weight: 900;
+}
+h2 span {
+    display: block; /* Bold text on its own line */
+    font-weight: 900; /*  font weight for bold text */
+}
+
+a {
+    color: #99D930; /* link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    color: #131313; /* link hover color */
+}
+
+p small {
+    font-size: 16px; /* Set font size for small */
+}
+img{
+    border-radius: 50%;
+}
